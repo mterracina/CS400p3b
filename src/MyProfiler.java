@@ -67,28 +67,29 @@ public class MyProfiler<K extends Comparable<K>, V> {
   public static void main(String[] args) {
     try {
       int numElements = Integer.parseInt(args[0]);
-      MyProfiler<String, String> mp = new MyProfiler<String, String>();
+//      int numElements = 7000000;
+      MyProfiler<Integer, Integer> mp = new MyProfiler<Integer, Integer>();
 
-      String key, value;
+      Integer key, value;
 
       // execute the insert method of profile as many times as numElements
       for (int i = 0; i < numElements; i++) {
-        key = Integer.toString(i);
-        value = "Test01_" + key;
+        key = i;
+        value = 10 + key;
         mp.insert(key, value);
       }
 
       // execute the retrieve method of profile as many times as numElements
       for (int i = 0; i < numElements; i++) {
-        key = Integer.toString(i);
+        key = i;
         mp.retrieve(key);
       }
 
       // execute the remove method of profile as many times as numElements
-      for (int i = 0; i < numElements; i++) {
-        key = Integer.toString(i);
-        mp.remove(key);
-      }
+//      for (int i = 0; i < numElements; i++) {
+//        key = Integer.toString(i);
+//        mp.remove(key);
+//      }
 
       String msg = String.format("Inserted and retreived %d (key,value) pairs", numElements);
       System.out.println(msg);

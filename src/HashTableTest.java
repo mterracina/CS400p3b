@@ -412,7 +412,7 @@ public class HashTableTest {
   public void test017_insert_N_remove_N_insert_N_size_equals_N() {
     String key;
     String value;
-    int target = 500000;
+    int target = 2000000;
 
     try {
       for (int i = 1; i <= target; i++) {

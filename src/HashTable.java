@@ -61,7 +61,7 @@ public class HashTable<K extends Comparable<K>, V> implements HashTableADT<K, V>
    * loadFactorThreshold to 0.75
    */
   public HashTable() {
-    this(5, 0.75);
+    this(17, 0.75);
   }
 
   /**
