@@ -2,7 +2,7 @@
 //
 // Title:           HashTable
 // Course:          CS400 Spring 2019
-// Project:         Project 3
+// Project:         Project 3b
 //
 // Author:          Mikel Terracina
 // Email:           mterracina@wisc.edu
@@ -10,7 +10,7 @@
 // Lecturer's Name: Andrew Kuemmel
 // Lecture Number:  004
 //
-// Due Date:        2019-03-14
+// Due Date:        2019-03-28
 //
 ///////////////////////////// CREDIT OUTSIDE HELP /////////////////////////////
 // Online Sources: 
